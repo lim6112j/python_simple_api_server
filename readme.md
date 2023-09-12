@@ -1,6 +1,6 @@
 # how to run
 
-models.py defines request and result type
+models.py defines request and response type
 
 
 ```
