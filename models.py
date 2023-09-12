@@ -15,16 +15,3 @@ class APIResponse:
       'od': self.od,
       'timestamp':self.timestamp
     }
-class APIRequest:
-    def __init__(self, startLoc, endLoc, timestamp):
-        self.startLoc = startLoc
-        self.endLoc = endLoc
-        self.timestamp = timestamp
-    def __repr__(self):
-        return '<id {}>'.format(self.startLoc)
-    def serialize(self):
-        return {
-            'startLoc': self.startLoc,
-            'endLoc': self.endLoc,
-            'timestamp': self.timestamp
-        }
